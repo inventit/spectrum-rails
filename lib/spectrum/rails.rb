@@ -2,7 +2,7 @@ require "spectrum/rails/version"
 
 module Spectrum
   module Rails
-    class Error < StandardError; end
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
